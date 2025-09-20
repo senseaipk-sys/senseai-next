@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {},
-  images: { remotePatterns: [] }
+  // no: output: 'export'
+  images: { /* default is fine */ },
 };
 export default nextConfig;
